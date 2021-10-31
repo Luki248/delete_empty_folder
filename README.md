@@ -10,11 +10,7 @@ v0.1
 - [ ] functionality
 
 ## Usage
-in a python script:
-```python
-delete_empty_folder("C:\Users")
-```
-or in the terminal:
+in console:
 ```python
 python3 .\delete_empty_folder.py "C:\Users"
 ```
