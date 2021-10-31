@@ -7,10 +7,10 @@ import argparse
 
 import delef
 
-VERSION = "0.9"
+VERSION = "1.0"
 
 arg_parser = argparse.ArgumentParser(prog="delete_empty_folders",
-                                     description="Delete empty Folders")
+                                     description="Delete empty Folders and returns the number of the deleted Folders.")
 arg_parser.version = VERSION
 
 arg_parser.add_argument("Path",
@@ -31,4 +31,5 @@ if not os.path.isdir(folderpath):
     print("The path specified does not exist!")
     exit()
 
-delef.delef(folderpath)
+ret = delef.delef(folderpath)
+print("Deleted " + str(ret) + " folder(s)")

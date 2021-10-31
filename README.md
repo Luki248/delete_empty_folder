@@ -4,7 +4,7 @@
 * If there is a nested folder structure without any files then it will only deletes the folder in the "deepest" position.
 
 ### Version
-v0.9
+v1.0
 
 ## Usage
 in console:
